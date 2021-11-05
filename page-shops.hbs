@@ -1,0 +1,566 @@
+{{!< default}} 
+{{!-- The tag above means: insert everything in this file 
+into the {body} of the default.hbs template --}} 
+
+<!--
+    =============================================
+        Our Portfolio
+    ==============================================
+    -->
+    <div class="our-portfolio portfolio-full-width-grid">
+        <div class="d-lg-flex">
+            <div class="gallery-sidebar">
+                <div class="filter-list">
+                    <h5 class="title">Категории</h5>
+                    <div id="js-filters-sidebar" class="cbp-l-filters-alignCenter filter-menu">
+                        <div data-filter=".shoes" class="cbp-filter-item">
+                            Одежда и обувь <div class="cbp-filter-counter"></div>
+                        </div>
+                        <div data-filter=".underwear" class="cbp-filter-item pt-20">
+                            Нижнее белье <br>
+                            и купальники <div class="cbp-filter-counter"></div>
+                        </div>
+                        <div data-filter=".moms" class="cbp-filter-item pt-20">
+                            Товары для детей<br>
+                            и будущих мам <div class="cbp-filter-counter"></div>
+                        </div>
+                        <div data-filter=".beauty" class="cbp-filter-item pt-20">
+                            Красота и здоровье <div class="cbp-filter-counter"></div>
+                        </div>
+                        <div data-filter=".electronics" class="cbp-filter-item pt-20">
+                            Электроника <div class="cbp-filter-counter"></div>
+                        </div>
+                        <div data-filter=".sports" class="cbp-filter-item pt-20">
+                            Спорт и активный<br>
+                            образ жизни <div class="cbp-filter-counter"></div>
+                        </div>
+                        <div data-filter=".auto" class="cbp-filter-item pt-20">
+                            Автозапчасти <div class="cbp-filter-counter"></div>
+                        </div>
+                        <div data-filter=".markets" class="cbp-filter-item pt-20">
+                            Гипермаркеты <div class="cbp-filter-counter"></div>
+                        </div>
+                    </div>
+                </div> <!-- /.filter-list -->
+
+            </div> <!-- /.gallery-sidebar -->
+            <div class="img-content-wrapper">
+                <div class="theme-title-one mb-60">
+                    <div class="upper-title mb-5">Магазины</div>
+                    <h2 class="main-title">Магазины <i>с которыми мы работаем</i></h2>
+                </div> <!-- /.theme-title-one -->
+                <div id="sidebar-cube-gallery" class="cbp cube-port">
+                    <div class="cbp-item shoes">
+                        <a href="https://6pm.com" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/6pm.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item shoes moms">
+                        <a href="https://hm.com" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/hm.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item shoes">
+                        <a href="https://zara.com" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/zara.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item shoes">
+                        <a href="https://zappos.com" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/zappos.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item shoes">
+                        <a href="https://yoox.com" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/yoox.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item shoes">
+                        <a href="https://joesnewbalanceoutlet.com/" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/joes.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item shoes">
+                        <a href="https://uniqlo.com" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/uniqlo.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item shoes">
+                        <a href="https://timberland.com" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/timberland.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item shoes">
+                        <a href="https://puma.com" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/puma.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item shoes">
+                        <a href="https://oldnavy.com" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/oldnavy.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item shoes">
+                        <a href="https://forever21.com" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/forever21.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item shoes">
+                        <a href="https://aldoshoes.com" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/aldoshoes.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item shoes">
+                        <a href="https://armaniexchange.com" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/armaniexchange.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item shoes">
+                        <a href="https://massimodutti.com" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/massimodutti.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item shoes">
+                        <a href="https://ralphlauren.com" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/ralphlauren.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item underwear">
+                        <a href="https://victoriassecret.com" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/victoriassecret.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item underwear">
+                        <a href="https://herroom.com/" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/herroom.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item underwear">
+                        <a href="https://hisroom.com" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/hisroom.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item underwear">
+                        <a href="https://swimsuitsforall.com/" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/swimsuitforall.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item underwear">
+                        <a href="https://agentprovocateur.com/" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/agentprovocateur.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item underwear">
+                        <a href="https://calzedonia.com/" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/calzedonia.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item underwear">
+                        <a href="https://annchery.com.co" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/annchery.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item underwear">
+                        <a href="https://playboyshop.com/" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/playboyshop.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item underwear">
+                        <a href="https://lasenza.com/us" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/lasenza.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item moms">
+                        <a href="https://carters.com" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/carters.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item moms">
+                        <a href="https://gap.com" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/gap.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item moms">
+                        <a href="https://childrensplace.com" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/childrensplace.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item moms">
+                        <a href="https://www.shopdisney.com/" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/shopdisney.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item moms">
+                        <a href="https://shop.lego.com/" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/lego.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item moms">
+                        <a href="https://shop.mattel.com" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/mattel.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item moms">
+                        <a href="https://crocs.com" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/crocs.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item moms">
+                        <a href="https://cookieskids.com/" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/cookieskids.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item moms">
+                        <a href="https://www.isabellaoliver.com/" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/isabellaoliver.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item moms">
+                        <a href="https://oshkosh.com" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/oshkosh.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item beauty">
+                        <a href="https://iherb.com/" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/iherb.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item beauty">
+                        <a href="https://sephora.com" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/sephora.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item beauty">
+                        <a href="https://walgreens.com" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/walgreens.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item beauty">
+                        <a href="https://www.luckyvitamin.com/" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/luckyvitamin.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item beauty">
+                        <a href="https://toofaced.com/" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/toofaced.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item beauty">
+                        <a href="https://elfcosmetics.com/" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/elfcosmetics.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item beauty">
+                        <a href="https://vitacost.com/" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/vitacost.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item beauty">
+                        <a href="https://clinique.com" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/clinique.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item electronics auto markets">
+                        <a href="https://amazon.com/" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/amazon.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item electronics auto markets">
+                        <a href="https://ebay.com" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/ebay.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item electronics">
+                        <a href="https://bhphotovideo.com" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/bhphotovideo.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item electronics">
+                        <a href="https://bestbuy.com" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/bestbuy.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item electronics">
+                        <a href="https://irobot.com/" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/irobot.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="cbp-item electronics">
+                        <a href="https://digikey.com/" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/digikey.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item electronics">
+                        <a href="https://apple.com/" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/apple.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item sports">
+                        <a href="https://backcountry.com/" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/backcountry.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item sports">
+                        <a href="https://cabelas.com/" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/cabelas.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item sports">
+                        <a href="https://columbia.com/" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/columbia.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item sports">
+                        <a href="https://eastbay.com/" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/eastbay.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item sports">
+                        <a href="https://sierra.com" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/sierra.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item sports">
+                        <a href="https://www.underarmour.com" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/underarmour.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item sports">
+                        <a href="https://tennis-warehouse.com/" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/tennis-warehouse.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item auto">
+                        <a href="https://rockauto.com/" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/rockauto.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item auto">
+                        <a href="https://www.eurocarparts.com/" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/eurocarparts.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item auto">
+                        <a href="https://www.ecstuning.com/" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/ecstuning.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item auto">
+                        <a href="https://www.autopartswarehouse.com/" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/autopartswarehouse.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item auto">
+                        <a href="https://shop.advanceautoparts.com/" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/shop.advanceautoparts.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item markets">
+                        <a href="https://walmart.com/" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/walmart.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item markets">
+                        <a href="https://target.com/" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/target.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item markets">
+                        <a href="https://nordstrom.com/" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/nordstrom.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item markets">
+                        <a href="https://overstock.com/" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/overstock.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item markets">
+                        <a href="https://macys.com/" target="_blank">
+                            <div class="">
+                                <img src="{{ asset "images/shops/macys.png"}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div> <!-- /.img-content-wrapper -->
+        </div>
+    </div> <!-- /.our-portfolio -->
+
+    <div class="about-us-block-one pt-50 pb-70 md-pt-40 pos-r">
+        <div class="shape-wrapper">
+            <img src="{{ asset "images/shape/21.svg"}}" alt="" class="shape-one img-shape">
+            <img src="{{ asset "images/shape/23.svg"}}" alt="" class="shape-two img-shape">
+            <img src="{{ asset "images/shape/24.svg"}}" alt="" class="shape-three img-shape">
+            <img src="{{ asset "images/shape/17.svg"}}" alt="" class="shape-four img-shape">
+            <img src="{{ asset "images/shape/9.svg"}}" alt="" class="shape-five img-shape">
+            <img src="{{ asset "images/shape/25.svg"}}" alt="" class="shape-six img-shape">
+        </div> <!-- /.shape-wrapper -->
+        <div class="inner-wrapper pos-r">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="theme-title-one">
+                            <h2 class="main-title underline"><span>Не знаете, где продают то,</span> <span>что вам нужно?</span></h2>
+                        </div> <!-- /.theme-title-one -->
+                        <p class="pt-40 pb-45">Расскажите подробно о товаре, который хотите заказать в США. Мы сами найдем продавца, сообщим стоимость и доставим в Кыргызстан.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="theme-form-style-two">
+                            <form class="package-form" method="post" target="hidden_iframe1" action="https://docs.google.com/forms/u/5/d/e/1FAIpQLSde6W1uBWdseIK-NNXFLLcK4haq8Vr2QfHftK8YquA_rMiOsg/formResponse">
+                                <iframe name="hidden_iframe1" style="display:none;"></iframe>
+                                <input type="number" required name="entry.516481527" placeholder="Ваш телефон*">
+                                <input type="text" name="entry.1029878755" placeholder="Ваше имя">
+                                <textarea required placeholder="Сообщение*" name="entry.1872802088"></textarea>
+                                <button type="submit" class="package-submut theme-btn solid-button-one">Отправить</button>
+
+                                <label class="package-label"></label>
+                            </form>
+                        </div> <!-- /.theme-form-style-two -->
+                    </div>
+                </div>
+            </div> <!-- /.container -->
+            <div class="path-shape-holder">
+                <img src="{{ asset "images/shape/16.svg"}}" alt="" data-aos="fade-left" class="aos-init aos-animate">
+                <div class="image-box aos-init aos-animate" data-aos="fade-left" data-aos-delay="300">
+                    <svg width="666" height="578">
+                        <g clip-path="url(#path-shape-one)">
+                        </g>
+                    </svg>
+                </div>
+            </div> <!-- /.path-shape-holder -->
+        </div> <!-- /.inner-wrapper -->
+    </div>
+
+    

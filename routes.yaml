@@ -1,0 +1,15 @@
+routes:
+  /: home
+  /services/: page-services
+  /shops/: page-shops
+  /faq/: page-faq
+  /news/hm/: page-hm
+
+collections:
+  /news/:
+    permalink: /news/{slug}/
+    template: index
+
+taxonomies:
+  tag: /tag/{slug}/
+  author: /author/{slug}/

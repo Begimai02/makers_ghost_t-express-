@@ -1,0 +1,49 @@
+ {{!< default}}
+
+{{!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template --}}
+
+{{!-- Everything inside the #post tags pulls data from the post --}}
+
+
+{{#post}}
+
+    <!--
+        =============================================
+            Blog Details
+        ==============================================
+        -->
+        <div class="our-blog blog-details blog-details-fg pb-70 md-pb-50">
+            <div class="blog-hero-banner" style="background: linear-gradient(0deg,rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url({{img_url feature_image}});">
+                <div class="blog-custom-container">
+                    <!--                <a href="#" class="date">23 July, 2018</a>-->
+                    <h2 class="blog-title">{{title}}</h2>
+                </div> <!-- /.blog-custom-container -->
+            </div> <!-- /.blog-hero-banner -->
+            <div class="blog-fg-data">
+                <div class="post-data">
+                    <div class="blog-custom-container">
+                        <div class="custom-container-bg content">
+                            {{!-- <p class="pt-50">{{content}}</p> --}}
+                            <p>{{content}}</p>
+                        </div> <!-- /.custom-container-bg -->
+                    </div> <!-- /.blog-custom-container -->
+                </div> <!-- /.post-data -->
+
+            </div> <!-- /.blog-fg-data -->
+        </div> <!-- /.our-blog -->
+
+
+    {{!-- <script>
+        var images = document.querySelectorAll('.kg-gallery-image img');
+        images.forEach(function (image) {
+            var container = image.closest('.kg-gallery-image');
+            var width = image.attributes.width.value;
+            var height = image.attributes.height.value;
+            var ratio = width / height;
+            container.style.flex = ratio + ' 1 0%';
+        })
+    </script> --}}
+
+
+{{/post}}

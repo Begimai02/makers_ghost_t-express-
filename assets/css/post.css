@@ -1,0 +1,146 @@
+.blog-details .post-data p {
+    padding: 15px 0 15px 0;
+    font-size: 1.07rem;
+}
+.blog-details .post-data blockquote{
+    font-size: 32px;
+}
+.blog-details .post-data blockquote h1{
+    font-size: 32px;
+    line-height: 45px;
+}
+.blog-details .post-data blockquote strong{
+    font-size: inherit;
+}
+.blog-details-fg .blog-fg-data .post-data h2{
+    font-size: 28px;
+    padding: 30px 0 10px;
+    line-height: normal !important;
+}
+.blog-details-fg .blog-fg-data .post-data a{
+    color: #007bff !important;
+}
+.kg-gallery-row{
+    padding: 50px 0 80px;display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.kg-gallery-image{
+    margin-right: .8rem;
+}
+.kg-gallery-image img {
+    height: auto !important;
+}
+.blog-details .post-data h5{
+    font-size: 20px;
+    line-height: 32px;
+    padding-bottom: 15px;
+}
+.blog-details .post-data ol {
+    list-style-type: decimal;
+    padding: 20px;
+}
+.blog-details .post-data ol li{
+    margin-left: 10px;
+    padding: 10px;
+}
+.blog-details .post-data ul {
+    list-style-type: none;
+    padding: 15px 0 15px 0;
+}
+.blog-details .post-data ul li{
+    vertical-align: baseline;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.blog-details .post-data h3{
+    font-size: 23px;
+    line-height: 32px;
+    font-style: italic;
+    margin: 0 0 45px;
+    position: relative;
+    padding-right: 90px;
+    padding-top: 15px;
+}
+.blog-details .post-data em{
+    padding: 10px 0 5px 0;
+}
+
+
+.blog-details .post-data strong{
+    font-style: normal !important;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0 5px 0 5px;
+}
+.kg-bookmark-container{
+    display: flex;
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px;
+}
+.kg-bookmark-content{
+    color: #8a919c;
+    font-size: 13px;
+    line-height: 1.7;
+}
+.kg-bookmark-title{
+    color: #2A2A2A;
+    font-size: 1.07rem;
+    margin-bottom: 10px;
+}
+.kg-bookmark-metadata{
+    width: 20px;
+    display: flex;
+    margin: 10px 10px 10px 0;
+
+}
+.kg-bookmark-icon{
+    width: 100%;
+    margin: 0 8px 0;
+}
+.kg-bookmark-author{
+    font-size: 13px;
+}
+
+
+
+@media all and (max-width: 600px){
+    .kg-bookmark-container{
+    flex-wrap: wrap;
+    }
+    .kg-gallery-row{
+        flex-wrap: wrap;
+    }
+    .kg-gallery-image{
+        margin-bottom: .8rem;
+        margin-right: 0px;
+    }
+}
+
+@media all and (max-width: 470px){
+    .blog-details .blog-hero-banner .blog-title{
+        font-size: 40px !important;
+    }
+    
+}
+@media all and (max-width: 400px){
+    .blog-details .blog-hero-banner .blog-title{
+        font-size: 33px !important;
+    }
+    .blog-details .post-data blockquote h1{
+        font-size: 24px;
+    }
+    .blog-details-fg .blog-fg-data .post-data h2{
+        font-size: 20px;
+    }
+    .blog-details .post-data h3{
+        font-size: 18px;
+    }
+}
+@media all and (max-width: 320px){
+    .blog-details .blog-hero-banner .blog-title{
+        font-size: 28px !important;
+    }
+}

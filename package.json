@@ -1,0 +1,38 @@
+{
+    "name": "t-express",
+    "description": "A theme for t-express website",
+    "version": "0.0.1",
+    "engines": {
+        "ghost": ">=3.0.0",
+        "ghost-api": "v4"
+    },
+    "license": "gpl-3.0",
+    "author": {
+        "name": "makers",
+        "email": "makerskg@gmail.com",
+        "url": "https://makers.kg/"
+    },
+    "gpm": {
+        "type": "theme",
+        "categories": [
+        "Minimal",
+        "Magazine",
+        "Blog"
+        ]
+    },
+    "keywords": [
+        "ghost-theme",
+        "ghost",
+        "theme",
+        "makers",
+        "marketing"
+    ],
+    "config": {
+        "posts_per_page": 6,
+        "image_sizes": {}
+    },
+    "dependencies": {
+        "handlebars": "^4.7.6",
+        "handlebars-paginate": "^0.1.0"
+    }
+}

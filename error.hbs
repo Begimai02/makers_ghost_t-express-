@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title>404 HTML Template by Colorlib</title>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="{{ asset "css/404_page.css" }}" />
+
+</head>
+
+<body>
+
+	<div id="notfound">
+		<div class="notfound">
+			<div class="notfound-404" style="background-image: url({{ asset "img/emoji.png" }});">
+			</div>
+			<h1>404</h1>
+			<h2>Упс! Страница не найдена</h2>
+			<p>Извините, но страницы которую вы ищете, не существует. Она была удалена, изменена в названии или временно
+				недоступна</p>
+			<a href="{{@site.url}}">На главную</a>
+			{{#if errorDetails}}
+				<section class="error-stack">
+					<h3>Theme errors</h3>
+					<ul class="error-stack-list">
+						{{#foreach errorDetails}}
+							<li>
+								<em class="error-stack-function">{{{rule}}}</em>
+
+								{{#foreach failures}}
+									<p><span class="error-stack-file">Ref: {{ref}}</span></p>
+									<p><span class="error-stack-file">Message: {{message}}</span></p>
+								{{/foreach}}
+							</li>
+						{{/foreach}}
+					</ul>
+				</section>
+			{{/if}}
+		</div>
+	</div>
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+</html>
